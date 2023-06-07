@@ -1,0 +1,45 @@
+/* Write your code here. */
+* {
+  margin: 0;
+}
+.backgroundImg {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #f8fafc;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+}
+.imgs {
+  display: flex;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+@media screen and (min-width: 768px) {
+  .backgroundImg {
+    background-color: #0f172a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    color: #f8fafc;
+    margin-bottom: 25px;
+    font-family: "Roboto";
+    font-size: 45px;
+  }
+
+  .image {
+    width: 350px;
+    height: 350px;
+  }
+}
